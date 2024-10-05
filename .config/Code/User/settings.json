@@ -1,0 +1,28 @@
+{
+  "editor.tabSize": 2,
+  "workbench.colorTheme": "Default Dark+",
+  "editor.fontFamily": "'FiraCode Nerd Font', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.activeIconPack": "nest",
+  "code-runner.clearPreviousOutput": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.enableSmartCommit": true,
+  "workbench.colorCustomizations": {
+    "terminal.ansiBlack": "#354741",
+    "terminal.ansiBrightBlue": "#4fc9db",
+    "terminal.ansiBlue": "#1B7C8A",
+    "terminal.ansiGreen": "#28C142",
+    "terminal.ansiYellow": "#E8D46F"
+  },
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "python": "python3",
+    "perl": "perl",
+    "rust": "cargo run",
+    "go": "go run",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  }
+}
